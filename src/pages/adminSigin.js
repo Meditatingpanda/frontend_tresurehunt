@@ -39,7 +39,7 @@ export default function SignIn() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // handle login logic here
-    if(email === 'admin' && password === 'admin'){
+    if(email === 'admin@gmail.com' && password === 'admin'){
       navigate('/home');
     }
   };
